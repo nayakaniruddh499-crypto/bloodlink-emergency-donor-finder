@@ -134,14 +134,13 @@ frontend/index.html
 
 ## Screenshots
 
-Add screenshots here after running the app:
+<img width="1763" height="1867" alt="image" src="https://github.com/user-attachments/assets/9e655428-2954-4e31-aaf8-3c767c37aba7" />
+<img width="1763" height="1652" alt="image" src="https://github.com/user-attachments/assets/0b4fbcd9-0bb2-49a9-a3d4-d082444d84d5" />
+<img width="1763" height="2985" alt="image" src="https://github.com/user-attachments/assets/5b72dd8f-b5bb-49d0-8a28-21e851509764" />
+<img width="1763" height="2489" alt="image" src="https://github.com/user-attachments/assets/452a5828-ae1b-4e64-80f2-c0e674bc221a" />
 
-- Home page
-- Donor registration page
-- Search donor page
-- Emergency request page
-- Emergency request listing page
-- Request details page
+
+
 
 ## Testing and Verification
 
