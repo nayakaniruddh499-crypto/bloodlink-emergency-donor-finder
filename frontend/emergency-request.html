@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Emergency Request | BloodLink</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h1>BloodLink</h1>
+
+            <div>
+                <a href="index.html">Home</a>
+                <a href="find-donor.html">Find Donor</a>
+                <a href="emergency-request.html">
+                    Emergency Requests
+                </a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Page Introduction -->
+        <section>
+
+            <h2>🚨 Emergency Blood Request</h2>
+
+            <p>
+                Provide the details below to create an emergency
+                blood request and find matching available donors.
+            </p>
+
+        </section>
+
+
+        <!-- Emergency Request Form -->
+        <section>
+
+            <form id="emergencyRequestForm">
+
+                <!-- Requester Information -->
+                <fieldset>
+
+                    <legend>Requester Information</legend>
+
+                    <label for="requesterName">
+                        Your Name
+                    </label>
+
+                    <input type="text" id="requesterName" name="requesterName" placeholder="Enter your name" required>
+
+
+                    <label for="contactNumber">
+                        Contact Number
+                    </label>
+
+                    <input type="tel" id="contactNumber" name="contactNumber" placeholder="10-digit phone number"
+                        maxlength="10" required>
+
+                </fieldset>
+
+
+                <!-- Blood Requirement -->
+                <fieldset>
+
+                    <legend>Blood Requirement</legend>
+
+                    <label for="requiredBloodGroup">
+                        Required Blood Group
+                    </label>
+
+                    <select id="requiredBloodGroup" name="requiredBloodGroup" required>
+
+                        <option value="">
+                            Select blood group
+                        </option>
+
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+
+                    </select>
+
+
+                    <label for="quantity">
+                        Required Quantity (Units)
+                    </label>
+
+                    <input type="number" id="quantity" name="quantity" min="1" step="1"
+                        placeholder="Enter number of units" required>
+
+                </fieldset>
+
+
+                <!-- Patient / Hospital Information -->
+                <fieldset>
+
+                    <legend>Patient & Hospital Information</legend>
+
+                    <label for="patientName">
+                        Patient Name
+                    </label>
+
+                    <input type="text" id="patientName" name="patientName" placeholder="Enter patient name" required>
+
+
+                    <label for="hospital">
+                        Hospital / Medical Centre
+                    </label>
+
+                    <input type="text" id="hospital" name="hospital" placeholder="Enter hospital name" required>
+
+                </fieldset>
+
+
+                <!-- Emergency Location -->
+                <fieldset>
+
+                    <legend>Emergency Location</legend>
+
+                    <label for="city">
+                        City
+                    </label>
+
+                    <input type="text" id="city" name="city" placeholder="Enter city" required>
+
+
+                    <label for="locality">
+                        Locality
+                    </label>
+
+                    <input type="text" id="locality" name="locality" placeholder="Enter locality" required>
+
+
+                    <label for="pinCode">
+                        PIN Code
+                    </label>
+
+                    <input type="text" id="pinCode" name="pinCode" maxlength="6" placeholder="6-digit PIN code"
+                        required>
+
+                </fieldset>
+
+
+                <!-- Date & Time -->
+                <fieldset>
+
+                    <legend>Required By</legend>
+
+                    <label for="requiredDateTime">
+                        Required Date & Time
+                    </label>
+
+                    <input type="datetime-local" id="requiredDateTime" name="requiredDateTime" required>
+
+                </fieldset>
+
+
+                <!-- Emergency Description -->
+                <fieldset>
+
+                    <legend>Emergency Details</legend>
+
+                    <label for="description">
+                        Describe the Emergency
+                    </label>
+
+                    <textarea id="description" name="description" rows="5"
+                        placeholder="Briefly describe the emergency..."></textarea>
+
+                </fieldset>
+
+
+                <!-- Submit -->
+                <button type="submit">
+                    🚨 Create Emergency Request
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <h3>BloodLink</h3>
+                <p>Helping communities respond faster when every unit of blood matters.</p>
+            </div>
+
+            <div>
+                <h4>Quick links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="find-donor.html">Find Donor</a></li>
+                    <li><a href="emergency-request.html">Emergency Requests</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Get involved</h4>
+                <ul>
+                    <li><a href="register.html">Register as donor</a></li>
+                    <li><a href="emergency-request.html">Request blood</a></li>
+                    <li><a href="index.html">Support the cause</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">
+            © 2026 BloodLink — Blood Donation & Emergency Donor Finder
+        </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

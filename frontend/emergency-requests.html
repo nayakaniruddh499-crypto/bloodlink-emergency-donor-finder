@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Emergency Requests | BloodLink</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>BloodLink</h1>
+
+            <div>
+                <a href="index.html">Home</a>
+                <a href="find-donor.html">Find Donor</a>
+                <a href="emergency-requests.html">Emergency Requests</a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <p class="eyebrow">ACTIVE REQUESTS</p>
+            <h2>Emergency Blood Requests</h2>
+            <p>
+                View urgent blood requirements from hospitals and families and help respond quickly.
+            </p>
+        </section>
+
+        <section>
+            <h3>Filter Requests</h3>
+
+            <form>
+                <label for="requestStatus">Status</label>
+                <select id="requestStatus" name="requestStatus">
+                    <option value="ALL">All</option>
+                    <option value="ACTIVE">Active</option>
+                    <option value="FULFILLED">Fulfilled</option>
+                    <option value="CANCELLED">Cancelled</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <h3>Available Requests</h3>
+            <div id="requestResults">
+                <p>Loading emergency requests...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <h3>BloodLink</h3>
+                <p>Helping communities respond faster when every unit of blood matters.</p>
+            </div>
+
+            <div>
+                <h4>Quick links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="find-donor.html">Find Donor</a></li>
+                    <li><a href="emergency-requests.html">Emergency Requests</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Get involved</h4>
+                <ul>
+                    <li><a href="register.html">Register as donor</a></li>
+                    <li><a href="emergency-request.html">Request blood</a></li>
+                    <li><a href="index.html">Support the cause</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">
+            © 2026 BloodLink — Blood Donation & Emergency Donor Finder
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

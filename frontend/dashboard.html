@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dashboard | BloodLink</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+
+        <nav>
+
+            <h1>BloodLink</h1>
+
+            <div>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="find-donor.html">
+                    Find Donor
+                </a>
+
+                <a href="emergency-request.html">
+                    Emergency Requests
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Welcome -->
+        <section>
+
+            <p>DONOR DASHBOARD</p>
+
+            <h2>
+                Welcome, <span id="userName">Donor</span>
+            </h2>
+
+            <p>
+                Manage your donor information and help people
+                during medical emergencies.
+            </p>
+
+        </section>
+
+
+        <!-- Donor Summary -->
+        <section>
+
+            <h3>Your Donor Profile</h3>
+
+            <div>
+
+                <div>
+                    <p>Blood Group</p>
+                    <strong id="userBloodGroup">
+                        --
+                    </strong>
+                </div>
+
+                <div>
+                    <p>Location</p>
+                    <strong id="userLocation">
+                        --
+                    </strong>
+                </div>
+
+                <div>
+                    <p>Availability</p>
+                    <strong id="userAvailability">
+                        --
+                    </strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Main Actions -->
+        <section>
+
+            <h3>What would you like to do?</h3>
+
+            <div>
+
+                <article>
+
+                    <h3>🩸 Find a Donor</h3>
+
+                    <p>
+                        Search for available donors by blood
+                        group and location.
+                    </p>
+
+                    <a href="find-donor.html">
+                        Find Donors
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <h3>🚨 Need Blood?</h3>
+
+                    <p>
+                        Create an emergency request and find
+                        matching donors.
+                    </p>
+
+                    <a href="emergency-request.html">
+                        Request Blood
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <h3>📋 Emergency Requests</h3>
+
+                    <p>
+                        View active emergency blood requests
+                        near you.
+                    </p>
+
+                    <a href="emergency-request.html">
+                        View Requests
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Availability -->
+        <section>
+
+            <h3>Donor Availability</h3>
+
+            <p>
+                Let others know whether you are currently
+                available to donate blood.
+            </p>
+
+            <label>
+
+                <input type="checkbox" id="availabilityToggle">
+
+                I am currently available to donate.
+
+            </label>
+
+        </section>
+
+
+        <!-- Profile Management -->
+        <section>
+
+            <h3>Manage Your Profile</h3>
+
+            <p>
+                Keep your contact and location information
+                up to date.
+            </p>
+
+            <a href="register.html">
+                Edit Profile
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <h3>BloodLink</h3>
+                <p>Helping communities respond faster when every unit of blood matters.</p>
+            </div>
+
+            <div>
+                <h4>Quick links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="find-donor.html">Find Donor</a></li>
+                    <li><a href="emergency-request.html">Emergency Requests</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Get involved</h4>
+                <ul>
+                    <li><a href="register.html">Register as donor</a></li>
+                    <li><a href="emergency-request.html">Request blood</a></li>
+                    <li><a href="index.html">Support the cause</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">
+            © 2026 BloodLink — Blood Donation & Emergency Donor Finder
+        </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
