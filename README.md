@@ -151,6 +151,18 @@ The project was checked for:
 - frontend script syntax validation
 - broken link cleanup
 - responsive CSS rules for multiple screen sizes
+<img width="1116" height="814" alt="Screenshot 2026-08-16 143506" src="https://github.com/user-attachments/assets/a71946b6-a8f0-4632-b6cd-51b4972f7fbf" />
+<img width="1035" height="597" alt="Screenshot 2026-08-16 143558" src="https://github.com/user-attachments/assets/ff5530f6-610a-47b5-9318-d0067301f3f1" />
+<img width="872" height="833" alt="Screenshot 2026-08-16 143938" src="https://github.com/user-attachments/assets/463922dc-15d8-4aca-8ce6-eb01e43b138c" />
+<img width="850" height="839" alt="Screenshot 2026-08-16 144331" src="https://github.com/user-attachments/assets/9889e3f4-0e8f-4fce-8603-88f9089407e7" />
+<img width="838" height="735" alt="Screenshot 2026-08-16 144551" src="https://github.com/user-attachments/assets/a75d3626-ead1-4728-b1c1-30b553e28c0d" />
+<img width="849" height="729" alt="Screenshot 2026-08-16 144704" src="https://github.com/user-attachments/assets/b4d32683-66c2-47f6-9340-7babb6453810" />
+<img width="905" height="831" alt="Screenshot 2026-08-16 145146" src="https://github.com/user-attachments/assets/8b910895-0478-4cb7-b7c1-338aa5248783" />
+<img width="857" height="828" alt="Screenshot 2026-08-16 145426" src="https://github.com/user-attachments/assets/42691bbe-ac78-4e84-8d01-539caeed4b71" />
+<img width="840" height="791" alt="Screenshot 2026-08-16 145519" src="https://github.com/user-attachments/assets/2b809efb-20a0-4034-8594-0484e476a6df" />
+<img width="883" height="809" alt="Screenshot 2026-08-16 145846" src="https://github.com/user-attachments/assets/f52925fc-6503-45c7-970f-6a252cafff85" />
+<img width="840" height="473" alt="Screenshot 2026-08-16 150055" src="https://github.com/user-attachments/assets/12ffdfac-cb36-4367-aa5c-7e7299fb27b5" />
+<img width="902" height="474" alt="Screenshot 2026-08-16 150207" src="https://github.com/user-attachments/assets/6c166290-e47b-4de8-8ce0-a847dff89bc3" />
 
 ## Short Explanation of the Solution
 
