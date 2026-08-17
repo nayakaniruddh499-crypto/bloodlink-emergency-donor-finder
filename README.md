@@ -167,6 +167,3 @@ The project was checked for:
 
 This project solves the problem of finding suitable blood donors during emergencies by providing a simple web-based system where donors can register, users can search for available donors, and emergency requests can be created and managed. The backend exposes REST APIs for donor and request management, while the frontend provides user-friendly forms and pages for interaction. The application focuses on making the core workflow functional, verifiable, and easy to understand.
 
-## Submission Notes
-
-This project is a functional prototype for a blood donation and emergency donor finder, focused on implementing the required problem solution clearly and efficiently rather than building a large-scale production system.
