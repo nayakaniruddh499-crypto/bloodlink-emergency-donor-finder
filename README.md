@@ -151,7 +151,6 @@ The project was checked for:
 - frontend script syntax validation
 - broken link cleanup
 - responsive CSS rules for multiple screen sizes
-<img width="1116" height="814" alt="Screenshot 2026-08-16 143506" src="https://github.com/user-attachments/assets/a71946b6-a8f0-4632-b6cd-51b4972f7fbf" />
 <img width="1035" height="597" alt="Screenshot 2026-08-16 143558" src="https://github.com/user-attachments/assets/ff5530f6-610a-47b5-9318-d0067301f3f1" />
 <img width="872" height="833" alt="Screenshot 2026-08-16 143938" src="https://github.com/user-attachments/assets/463922dc-15d8-4aca-8ce6-eb01e43b138c" />
 <img width="850" height="839" alt="Screenshot 2026-08-16 144331" src="https://github.com/user-attachments/assets/9889e3f4-0e8f-4fce-8603-88f9089407e7" />
